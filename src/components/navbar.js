@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
 import styled from 'styled-components';
@@ -18,7 +18,7 @@ const Styles = styled.div`
 const NavigationBar = () => (
     <Styles>
     <Navbar expand="lg">
-      <Navbar.Brand href="/">React Simple App</Navbar.Brand>
+      <Navbar.Brand>React Simple App</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">          

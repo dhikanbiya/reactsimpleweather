@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import apiKey from '../key/apikey.js'
-import {Button,Form,Container,Col,Row} from 'react-bootstrap'
+import {Button,Form} from 'react-bootstrap'
 var axios = require('axios')
 var moment = require('moment')
 
